@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="sprite">
+            <properties
+                texture="large asteroid 1" 
+                />
+        </behavior>
+        <behavior type="rigidbody" />
+        <behavior type="circlecollider">
+            <properties
+                radius="28"
+                />
+        </behavior>
+    </behaviors>
+    
+    <!-- all the lua scripts that make up this actor -->
+    <scripts>
+        <script file="asteroid.lua" />
+        <script file="wrap.lua" />
+    </scripts>
+    
+    <!-- query tags -->
+    <tags>
+        <tag>asteroid</tag>
+    </tags>
+</prefab>

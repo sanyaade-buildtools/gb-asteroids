@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="sprite">
+            <properties 
+            texture="spaceship" 
+            />
+        </behavior>
+                <behavior type="rigidbody" />
+        <behavior type="circlecollider">
+            <properties
+                radius="16"
+                />
+        </behavior>
+        <behavior type="emitter" >
+            <properties texture="tiny particle" />
+        </behavior>
+        
+
+    </behaviors>
+    
+    <!-- all the lua scripts that make up this actor -->
+    <scripts>
+        <script file="spaceship.lua" />
+        <script file="wrap.lua" />
+    </scripts>
+    
+    <!-- query tags -->
+    <tags>
+        <tag>player</tag>
+    </tags>
+</prefab>

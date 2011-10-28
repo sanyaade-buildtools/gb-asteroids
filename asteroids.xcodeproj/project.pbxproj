@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F89AF4314577BCA00B931AE /* backdrop.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F89AF4214577BCA00B931AE /* backdrop.xml */; };
+		1F89B05F1457E3A500B931AE /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B05E1457E3A500B931AE /* bullet.png */; };
+		1F89B0611457E3C200B931AE /* bullet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B0601457E3C200B931AE /* bullet.xml */; };
+		1F8B4F64145910CF00FAE3E8 /* bullet.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F63145910CF00FAE3E8 /* bullet.lua */; };
+		1F8B4F671459352300FAE3E8 /* wrap.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F661459352300FAE3E8 /* wrap.lua */; };
+		1F8B4F691459390600FAE3E8 /* small_asteroid.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F681459390600FAE3E8 /* small_asteroid.lua */; };
+		1F8B4F6D14593A2500FAE3E8 /* large_asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F6A14593A2500FAE3E8 /* large_asteroid.png */; };
+		1F8B4F6E14593A2500FAE3E8 /* medium_asteroid_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F6B14593A2500FAE3E8 /* medium_asteroid_1.png */; };
+		1F8B4F6F14593A2500FAE3E8 /* medium_asteroid_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F6C14593A2500FAE3E8 /* medium_asteroid_2.png */; };
+		1F8B4F7114593A6900FAE3E8 /* medium_asteroid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F7014593A6900FAE3E8 /* medium_asteroid.xml */; };
+		1F8B4F7314593AA600FAE3E8 /* medium_asteroid.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F7214593AA600FAE3E8 /* medium_asteroid.lua */; };
+		1F8B4F7514593AC100FAE3E8 /* large_asteroid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F7414593AC000FAE3E8 /* large_asteroid.xml */; };
+		1F8B4F7A145A172D00FAE3E8 /* particle.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F79145A172D00FAE3E8 /* particle.bmp */; };
+		1FCD60AF14520E5400ADCFDC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */; };
+		1FCD60B514520E5400ADCFDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60B314520E5400ADCFDC /* InfoPlist.strings */; };
+		1FCD60BD14520E8600ADCFDC /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60BC14520E8600ADCFDC /* master.png */; };
+		1FCD60C814521AAE00ADCFDC /* spaceship.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60C614521AAE00ADCFDC /* spaceship.lua */; };
+		1FCD60C914521AAE00ADCFDC /* playfield.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60C714521AAE00ADCFDC /* playfield.lua */; };
+		1FCD60CC14521C0700ADCFDC /* Project.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60CB14521C0700ADCFDC /* Project.plist */; };
+		1FCD612B1453324D00ADCFDC /* assets.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD612A1453324D00ADCFDC /* assets.xml */; };
+		1FCD612D145333F000ADCFDC /* manifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD612C145333F000ADCFDC /* manifest.xml */; };
+		1FCD613B1454770B00ADCFDC /* asteroid.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD613A1454770B00ADCFDC /* asteroid.lua */; };
+		1FCD61461454934F00ADCFDC /* small_asteroid_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61441454934F00ADCFDC /* small_asteroid_1.png */; };
+		1FCD61471454934F00ADCFDC /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61451454934F00ADCFDC /* spaceship.png */; };
+		1FCD614A14549E0700ADCFDC /* small_asteroid_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD614814549E0700ADCFDC /* small_asteroid_2.png */; };
+		1FCD614B14549E0700ADCFDC /* small_asteroid_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD614914549E0700ADCFDC /* small_asteroid_3.png */; };
+		1FCD614D1454A1FC00ADCFDC /* rdx_starfield.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD614C1454A1FC00ADCFDC /* rdx_starfield.jpeg */; };
+		1FCD61631456051200ADCFDC /* spaceship.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61621456051200ADCFDC /* spaceship.xml */; };
+		1FCD61701457412F00ADCFDC /* small_asteroid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD616F1457412F00ADCFDC /* small_asteroid.xml */; };
+		3F40A377145A53430051C254 /* asteroid_field.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F40A376145A53430051C254 /* asteroid_field.xml */; };
+		3F40A37A145A54C00051C254 /* asteroid_field.lua in Resources */ = {isa = PBXBuildFile; fileRef = 3F40A379145A54C00051C254 /* asteroid_field.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F89AF4214577BCA00B931AE /* backdrop.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = backdrop.xml; sourceTree = "<group>"; };
+		1F89B05E1457E3A500B931AE /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		1F89B0601457E3C200B931AE /* bullet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bullet.xml; sourceTree = "<group>"; };
+		1F8B4F63145910CF00FAE3E8 /* bullet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bullet.lua; sourceTree = "<group>"; };
+		1F8B4F661459352300FAE3E8 /* wrap.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wrap.lua; sourceTree = "<group>"; };
+		1F8B4F681459390600FAE3E8 /* small_asteroid.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = small_asteroid.lua; sourceTree = "<group>"; };
+		1F8B4F6A14593A2500FAE3E8 /* large_asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_asteroid.png; sourceTree = "<group>"; };
+		1F8B4F6B14593A2500FAE3E8 /* medium_asteroid_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium_asteroid_1.png; sourceTree = "<group>"; };
+		1F8B4F6C14593A2500FAE3E8 /* medium_asteroid_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium_asteroid_2.png; sourceTree = "<group>"; };
+		1F8B4F7014593A6900FAE3E8 /* medium_asteroid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = medium_asteroid.xml; sourceTree = "<group>"; };
+		1F8B4F7214593AA600FAE3E8 /* medium_asteroid.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = medium_asteroid.lua; sourceTree = "<group>"; };
+		1F8B4F7414593AC000FAE3E8 /* large_asteroid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = large_asteroid.xml; sourceTree = "<group>"; };
+		1F8B4F79145A172D00FAE3E8 /* particle.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = particle.bmp; sourceTree = "<group>"; };
+		1FCD60AB14520E5400ADCFDC /* asteroids.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asteroids.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1FCD60B214520E5400ADCFDC /* asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asteroids-Info.plist"; sourceTree = "<group>"; };
+		1FCD60B414520E5400ADCFDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FCD60B614520E5400ADCFDC /* asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		1FCD60BC14520E8600ADCFDC /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
+		1FCD60C614521AAE00ADCFDC /* spaceship.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spaceship.lua; sourceTree = "<group>"; };
+		1FCD60C714521AAE00ADCFDC /* playfield.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = playfield.lua; sourceTree = "<group>"; };
+		1FCD60CB14521C0700ADCFDC /* Project.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Project.plist; sourceTree = "<group>"; };
+		1FCD612A1453324D00ADCFDC /* assets.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = assets.xml; sourceTree = "<group>"; };
+		1FCD612C145333F000ADCFDC /* manifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = manifest.xml; sourceTree = "<group>"; };
+		1FCD613A1454770B00ADCFDC /* asteroid.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asteroid.lua; sourceTree = "<group>"; };
+		1FCD61441454934F00ADCFDC /* small_asteroid_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_asteroid_1.png; sourceTree = "<group>"; };
+		1FCD61451454934F00ADCFDC /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		1FCD614814549E0700ADCFDC /* small_asteroid_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_asteroid_2.png; sourceTree = "<group>"; };
+		1FCD614914549E0700ADCFDC /* small_asteroid_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_asteroid_3.png; sourceTree = "<group>"; };
+		1FCD614C1454A1FC00ADCFDC /* rdx_starfield.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rdx_starfield.jpeg; sourceTree = "<group>"; };
+		1FCD61621456051200ADCFDC /* spaceship.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = spaceship.xml; sourceTree = "<group>"; };
+		1FCD616F1457412F00ADCFDC /* small_asteroid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = small_asteroid.xml; sourceTree = "<group>"; };
+		3F40A376145A53430051C254 /* asteroid_field.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = asteroid_field.xml; sourceTree = "<group>"; };
+		3F40A379145A54C00051C254 /* asteroid_field.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asteroid_field.lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCD60A814520E5400ADCFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCD60AF14520E5400ADCFDC /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCD60A014520E5400ADCFDC = {
+			isa = PBXGroup;
+			children = (
+				1FCD60B014520E5400ADCFDC /* asteroids */,
+				1FCD60AD14520E5400ADCFDC /* Frameworks */,
+				1FCD60AC14520E5400ADCFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCD60AC14520E5400ADCFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD60AB14520E5400ADCFDC /* asteroids.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCD60AD14520E5400ADCFDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FCD60B014520E5400ADCFDC /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD613F1454794A00ADCFDC /* Project */,
+				1FCD613E1454793900ADCFDC /* Asset Groups */,
+				1FCD613D1454792E00ADCFDC /* Manifests */,
+				1FCD6161145604F700ADCFDC /* Actor Prefabs */,
+				1FCD613C1454791800ADCFDC /* Textures */,
+				1FCD6139145476F500ADCFDC /* Scripts */,
+				1FCD60B114520E5400ADCFDC /* Supporting Files */,
+			);
+			path = asteroids;
+			sourceTree = "<group>";
+		};
+		1FCD60B114520E5400ADCFDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD60B214520E5400ADCFDC /* asteroids-Info.plist */,
+				1FCD60B314520E5400ADCFDC /* InfoPlist.strings */,
+				1FCD60B614520E5400ADCFDC /* asteroids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FCD6139145476F500ADCFDC /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B4F661459352300FAE3E8 /* wrap.lua */,
+				1F8B4F63145910CF00FAE3E8 /* bullet.lua */,
+				1FCD60C614521AAE00ADCFDC /* spaceship.lua */,
+				1FCD60C714521AAE00ADCFDC /* playfield.lua */,
+				1FCD613A1454770B00ADCFDC /* asteroid.lua */,
+				1F8B4F7214593AA600FAE3E8 /* medium_asteroid.lua */,
+				1F8B4F681459390600FAE3E8 /* small_asteroid.lua */,
+				3F40A379145A54C00051C254 /* asteroid_field.lua */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1FCD613C1454791800ADCFDC /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B4F79145A172D00FAE3E8 /* particle.bmp */,
+				1F89B05E1457E3A500B931AE /* bullet.png */,
+				1FCD614C1454A1FC00ADCFDC /* rdx_starfield.jpeg */,
+				1F8B4F6A14593A2500FAE3E8 /* large_asteroid.png */,
+				1F8B4F6B14593A2500FAE3E8 /* medium_asteroid_1.png */,
+				1F8B4F6C14593A2500FAE3E8 /* medium_asteroid_2.png */,
+				1FCD61441454934F00ADCFDC /* small_asteroid_1.png */,
+				1FCD614814549E0700ADCFDC /* small_asteroid_2.png */,
+				1FCD614914549E0700ADCFDC /* small_asteroid_3.png */,
+				1FCD61451454934F00ADCFDC /* spaceship.png */,
+				1FCD60BC14520E8600ADCFDC /* master.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		1FCD613D1454792E00ADCFDC /* Manifests */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD612C145333F000ADCFDC /* manifest.xml */,
+			);
+			name = Manifests;
+			sourceTree = "<group>";
+		};
+		1FCD613E1454793900ADCFDC /* Asset Groups */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD612A1453324D00ADCFDC /* assets.xml */,
+			);
+			name = "Asset Groups";
+			sourceTree = "<group>";
+		};
+		1FCD613F1454794A00ADCFDC /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD60CB14521C0700ADCFDC /* Project.plist */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		1FCD6161145604F700ADCFDC /* Actor Prefabs */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD61621456051200ADCFDC /* spaceship.xml */,
+				1F8B4F7414593AC000FAE3E8 /* large_asteroid.xml */,
+				1F8B4F7014593A6900FAE3E8 /* medium_asteroid.xml */,
+				1FCD616F1457412F00ADCFDC /* small_asteroid.xml */,
+				1F89AF4214577BCA00B931AE /* backdrop.xml */,
+				1F89B0601457E3C200B931AE /* bullet.xml */,
+				3F40A376145A53430051C254 /* asteroid_field.xml */,
+			);
+			name = "Actor Prefabs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCD60AA14520E5400ADCFDC /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCD60B914520E5400ADCFDC /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				1FCD60A714520E5400ADCFDC /* Sources */,
+				1FCD60A814520E5400ADCFDC /* Frameworks */,
+				1FCD60A914520E5400ADCFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = 1FCD60AB14520E5400ADCFDC /* asteroids.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCD60A214520E5400ADCFDC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1FCD60A514520E5400ADCFDC /* Build configuration list for PBXProject "asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FCD60A014520E5400ADCFDC;
+			productRefGroup = 1FCD60AC14520E5400ADCFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCD60AA14520E5400ADCFDC /* asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCD60A914520E5400ADCFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCD60B514520E5400ADCFDC /* InfoPlist.strings in Resources */,
+				1FCD60BD14520E8600ADCFDC /* master.png in Resources */,
+				1FCD60C814521AAE00ADCFDC /* spaceship.lua in Resources */,
+				1FCD60C914521AAE00ADCFDC /* playfield.lua in Resources */,
+				1FCD60CC14521C0700ADCFDC /* Project.plist in Resources */,
+				1FCD612B1453324D00ADCFDC /* assets.xml in Resources */,
+				1FCD612D145333F000ADCFDC /* manifest.xml in Resources */,
+				1FCD613B1454770B00ADCFDC /* asteroid.lua in Resources */,
+				1FCD61461454934F00ADCFDC /* small_asteroid_1.png in Resources */,
+				1FCD61471454934F00ADCFDC /* spaceship.png in Resources */,
+				1FCD614A14549E0700ADCFDC /* small_asteroid_2.png in Resources */,
+				1FCD614B14549E0700ADCFDC /* small_asteroid_3.png in Resources */,
+				1FCD614D1454A1FC00ADCFDC /* rdx_starfield.jpeg in Resources */,
+				1FCD61631456051200ADCFDC /* spaceship.xml in Resources */,
+				1FCD61701457412F00ADCFDC /* small_asteroid.xml in Resources */,
+				1F89AF4314577BCA00B931AE /* backdrop.xml in Resources */,
+				1F89B05F1457E3A500B931AE /* bullet.png in Resources */,
+				1F89B0611457E3C200B931AE /* bullet.xml in Resources */,
+				1F8B4F64145910CF00FAE3E8 /* bullet.lua in Resources */,
+				1F8B4F671459352300FAE3E8 /* wrap.lua in Resources */,
+				1F8B4F691459390600FAE3E8 /* small_asteroid.lua in Resources */,
+				1F8B4F6D14593A2500FAE3E8 /* large_asteroid.png in Resources */,
+				1F8B4F6E14593A2500FAE3E8 /* medium_asteroid_1.png in Resources */,
+				1F8B4F6F14593A2500FAE3E8 /* medium_asteroid_2.png in Resources */,
+				1F8B4F7114593A6900FAE3E8 /* medium_asteroid.xml in Resources */,
+				1F8B4F7314593AA600FAE3E8 /* medium_asteroid.lua in Resources */,
+				1F8B4F7514593AC100FAE3E8 /* large_asteroid.xml in Resources */,
+				1F8B4F7A145A172D00FAE3E8 /* particle.bmp in Resources */,
+				3F40A377145A53430051C254 /* asteroid_field.xml in Resources */,
+				3F40A37A145A54C00051C254 /* asteroid_field.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCD60A714520E5400ADCFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FCD60B314520E5400ADCFDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCD60B414520E5400ADCFDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCD60B714520E5400ADCFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FCD60B814520E5400ADCFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FCD60BA14520E5400ADCFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asteroids/asteroids-Prefix.pch";
+				INFOPLIST_FILE = "asteroids/asteroids-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1FCD60BB14520E5400ADCFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asteroids/asteroids-Prefix.pch";
+				INFOPLIST_FILE = "asteroids/asteroids-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCD60A514520E5400ADCFDC /* Build configuration list for PBXProject "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCD60B714520E5400ADCFDC /* Debug */,
+				1FCD60B814520E5400ADCFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCD60B914520E5400ADCFDC /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCD60BA14520E5400ADCFDC /* Debug */,
+				1FCD60BB14520E5400ADCFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCD60A214520E5400ADCFDC /* Project object */;
+}

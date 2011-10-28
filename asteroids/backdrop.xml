@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="sprite">
+            <properties
+                texture="starfield"
+                />
+        </behavior>
+    </behaviors>
+</prefab>

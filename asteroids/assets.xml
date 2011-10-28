@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<group>
+    <asset name="master" type="texture" file="master.png" />
+    <asset name="starfield" type="texture" file="rdx_starfield.jpeg" />
+    
+    <!-- player textures -->
+    <asset name="spaceship" type="texture" file="spaceship.png" />
+    <asset name="blast" type="texture" file="bullet.png" />
+    
+    <!-- particle textures -->
+    <asset name="tiny particle" type="texture" file="particle.bmp" />
+    
+    <!-- small asteroid textures -->
+    <asset name="small asteroid 1" type="texture" file="small_asteroid_1.png" />
+    <asset name="small asteroid 2" type="texture" file="small_asteroid_2.png" />
+    <asset name="small asteroid 3" type="texture" file="small_asteroid_3.png" />
+    
+    <!-- medium asteroid textures -->
+    <asset name="medium asteroid 1" type="texture" file="medium_asteroid_1.png" />
+    <asset name="medium asteroid 2" type="texture" file="medium_asteroid_2.png" />
+    
+    <!-- large asteroid textures -->
+    <asset name="large asteroid 1" type="texture" file="large_asteroid.png" />
+    
+    <!-- player prefab -->
+    <asset name="backdrop" type="prefab" file="backdrop.xml" />
+    <asset name="player" type="prefab" file="spaceship.xml" />
+    <asset name="small asteroid" type="prefab" file="small_asteroid.xml" />
+    <asset name="medium asteroid" type="prefab" file="medium_asteroid.xml" />
+    <asset name="large asteroid" type="prefab" file="large_asteroid.xml" />
+    <asset name="bullet" type="prefab" file="bullet.xml" />
+    <asset name="asteroid field" type="prefab" file="asteroid_field.xml" />
+</group>

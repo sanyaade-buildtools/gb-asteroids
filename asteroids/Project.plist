@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Initial Scene</key>
+	<string>playfield.lua</string>
+	<key>Display Title</key>
+	<string>Asteroids Tutorial</string>
+	<key>Manifest</key>
+	<string>manifest.xml</string>
+	<key>Display Width</key>
+	<integer>640</integer>
+	<key>Display Height</key>
+	<integer>480</integer>
+</dict>
+</plist>

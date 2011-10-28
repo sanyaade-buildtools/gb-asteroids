@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="sprite">
+            <properties 
+                texture="blast" 
+                />
+        </behavior>
+        <behavior type="rigidbody" />
+        <behavior type="segmentcollider">
+            <properties
+                y1="-8"
+                y2="8"
+                />
+        </behavior>
+    </behaviors>
+    
+    <!-- behavior scripts -->
+    <scripts>
+        <script file="bullet.lua" />
+        <script file="wrap.lua" />
+    </scripts>
+    
+    <!-- query tags -->
+    <tags>
+        <tag>bullet</tag>
+    </tags>
+</prefab>

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'asteroids' target in the 'asteroids' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
