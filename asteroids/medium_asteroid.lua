@@ -12,6 +12,8 @@ function collide (actor)
    if actor.has_tag('bullet') then
       local x,y=transform.position()
 
+      layer.spawn('explosion').transform.set_position(x,y)
+
       for i=1,3,1 do
          layer.spawn('small asteroid').transform.set_position(x,y)
       end

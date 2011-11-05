@@ -127,6 +127,6 @@ function ui ()
    gui.draw_string("Score: " .. game.scoring.points, 230, -10, "android")
    gui.draw_string("Time: " .. string.format("%.2f", clock.time()), 370, -10, "android")
    gui.draw_string("FPS: " .. string.format("%.1f", clock.fps()), 500, -10, "android")
-   gui.set_color(1, 0, 0)
+   gui.set_color(0.2, 0.5, 0.8)
    gui.draw_rect(80, -7, energy, -10, true)
 end

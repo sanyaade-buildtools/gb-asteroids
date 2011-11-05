@@ -46,6 +46,9 @@
 		1FCD614D1454A1FC00ADCFDC /* rdx_starfield.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD614C1454A1FC00ADCFDC /* rdx_starfield.jpeg */; };
 		1FCD61631456051200ADCFDC /* spaceship.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61621456051200ADCFDC /* spaceship.xml */; };
 		1FCD61701457412F00ADCFDC /* small_asteroid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD616F1457412F00ADCFDC /* small_asteroid.xml */; };
+		1FF85B481465CA1A00A8BD34 /* explosion.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B471465CA1A00A8BD34 /* explosion.xml */; };
+		1FF85B4B1465CEC400A8BD34 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B4A1465CEC400A8BD34 /* explosion.png */; };
+		1FF85B4F1465CF8600A8BD34 /* explosion.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B4E1465CF8600A8BD34 /* explosion.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +94,9 @@
 		1FCD614C1454A1FC00ADCFDC /* rdx_starfield.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rdx_starfield.jpeg; sourceTree = "<group>"; };
 		1FCD61621456051200ADCFDC /* spaceship.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = spaceship.xml; sourceTree = "<group>"; };
 		1FCD616F1457412F00ADCFDC /* small_asteroid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = small_asteroid.xml; sourceTree = "<group>"; };
+		1FF85B471465CA1A00A8BD34 /* explosion.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = explosion.xml; sourceTree = "<group>"; };
+		1FF85B4A1465CEC400A8BD34 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		1FF85B4E1465CF8600A8BD34 /* explosion.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = explosion.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		1FCD6139145476F500ADCFDC /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
+				1FF85B4E1465CF8600A8BD34 /* explosion.lua */,
 				1FC4C141146056BD009F8DBE /* scoring.lua */,
 				1F8B4F661459352300FAE3E8 /* wrap.lua */,
 				1F8B4F63145910CF00FAE3E8 /* bullet.lua */,
@@ -202,6 +209,7 @@
 		1FCD613C1454791800ADCFDC /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				1FF85B4A1465CEC400A8BD34 /* explosion.png */,
 				1F999F711464F56C00C89B93 /* android_1.png */,
 				1FC4C14E146237BF009F8DBE /* shields.png */,
 				1F8B4F79145A172D00FAE3E8 /* particle.bmp */,
@@ -245,6 +253,7 @@
 				1FCD616F1457412F00ADCFDC /* small_asteroid.xml */,
 				1F89AF4214577BCA00B931AE /* backdrop.xml */,
 				1F89B0601457E3C200B931AE /* bullet.xml */,
+				1FF85B471465CA1A00A8BD34 /* explosion.xml */,
 			);
 			name = "Actor Prefabs";
 			sourceTree = "<group>";
@@ -334,6 +343,9 @@
 				1FC4C1511462411A009F8DBE /* shields.xml in Resources */,
 				1F999F721464F56C00C89B93 /* android_1.png in Resources */,
 				1F999F741464F57F00C89B93 /* android.xml in Resources */,
+				1FF85B481465CA1A00A8BD34 /* explosion.xml in Resources */,
+				1FF85B4B1465CEC400A8BD34 /* explosion.png in Resources */,
+				1FF85B4F1465CF8600A8BD34 /* explosion.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

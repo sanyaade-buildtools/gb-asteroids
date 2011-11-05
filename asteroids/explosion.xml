@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="emitter">
+            <properties
+            texture="exp particle"
+            lifetime="one shot"
+            rate="3"
+            spread="360"
+            minparticlelife="0.5"
+            maxparticlelife="1"
+            startcolor="#ff0000ff"
+            endcolor="#ffff0000"
+            startscale="0.25"
+            endscale="1.0"
+            />
+        </behavior>
+    </behaviors>
+    
+    <!-- all the lua scripts that make up this actor -->
+    <scripts>
+        <script file="explosion.lua" />
+    </scripts>
+</prefab>

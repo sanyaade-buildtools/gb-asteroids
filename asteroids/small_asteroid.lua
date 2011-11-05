@@ -11,7 +11,9 @@ end
 
 function collide (actor)
    if actor.has_tag('bullet') then
+      local x,y=transform.position()
       game.scoring.add_points(250)
+      layer.spawn('explosion').transform.set_position(x,y)
       self.destroy()
    end
 end

@@ -10,6 +10,7 @@
     
     <!-- particle textures -->
     <asset name="tiny particle" type="texture" file="particle.bmp" />
+    <asset name="exp particle" type="texture" file="explosion.png" />
     
     <!-- small asteroid textures -->
     <asset name="small asteroid 1" type="texture" file="small_asteroid_1.png" />
@@ -31,6 +32,7 @@
     <asset name="medium asteroid" type="prefab" file="medium_asteroid.xml" />
     <asset name="large asteroid" type="prefab" file="large_asteroid.xml" />
     <asset name="bullet" type="prefab" file="bullet.xml" />
+    <asset name="explosion" type="prefab" file="explosion.xml" />
     
     <!-- sound files -->
     <asset name="laser" type="sound" file="laser.wav" />
