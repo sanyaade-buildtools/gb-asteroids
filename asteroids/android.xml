@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<font>
+	<pages>
+		<page index="1" texture="android_1.png" />
+	</pages>
+	<glyphs>
+		<glyph page="1" name="c" x="1" y="34" w="21" h="31" />
+		<glyph page="1" name="e" x="1" y="67" w="21" h="31" />
+		<glyph page="1" name="f" x="1" y="100" w="21" h="31" />
+		<glyph page="1" name="g" x="1" y="133" w="21" h="31" />
+		<glyph page="1" name="|" x="1" y="199" w="6" h="31" />
+		<glyph page="1" name="i" x="1" y="166" w="6" h="31" />
+		<glyph page="1" name=" " x="9" y="166" w="11" h="31" />
+		<glyph page="1" name="!" x="9" y="199" w="7" h="31" />
+		<glyph page="1" name="a" x="1" y="1" w="22" h="31" />
+		<glyph page="1" name="d" x="25" y="34" w="23" h="31" />
+		<glyph page="1" name="h" x="25" y="67" w="22" h="31" />
+		<glyph page="1" name="j" x="25" y="100" w="22" h="31" />
+		<glyph page="1" name="k" x="25" y="133" w="22" h="31" />
+		<glyph page="1" name="l" x="25" y="166" w="21" h="31" />
+		<glyph page="1" name="n" x="25" y="199" w="22" h="31" />
+		<glyph page="1" name="b" x="25" y="1" w="23" h="31" />
+		<glyph page="1" name="o" x="50" y="34" w="23" h="31" />
+		<glyph page="1" name="p" x="50" y="67" w="21" h="31" />
+		<glyph page="1" name="q" x="50" y="100" w="23" h="31" />
+		<glyph page="1" name="r" x="50" y="133" w="22" h="31" />
+		<glyph page="1" name="s" x="50" y="166" w="21" h="31" />
+		<glyph page="1" name="t" x="50" y="199" w="20" h="31" />
+		<glyph page="1" name="m" x="50" y="1" w="26" h="31" />
+		<glyph page="1" name="v" x="79" y="34" w="22" h="31" />
+		<glyph page="1" name="x" x="79" y="67" w="22" h="31" />
+		<glyph page="1" name="y" x="79" y="100" w="21" h="31" />
+		<glyph page="1" name="z" x="79" y="133" w="22" h="31" />
+		<glyph page="1" name="A" x="79" y="166" w="22" h="31" />
+		<glyph page="1" name="C" x="79" y="199" w="21" h="31" />
+		<glyph page="1" name="u" x="79" y="1" w="22" h="31" />
+		<glyph page="1" name="B" x="103" y="34" w="23" h="31" />
+		<glyph page="1" name="D" x="103" y="67" w="23" h="31" />
+		<glyph page="1" name="E" x="103" y="100" w="21" h="31" />
+		<glyph page="1" name="F" x="103" y="133" w="21" h="31" />
+		<glyph page="1" name="G" x="103" y="166" w="21" h="31" />
+		<glyph page="1" name="H" x="103" y="199" w="22" h="31" />
+		<glyph page="1" name="w" x="103" y="1" w="26" h="31" />
+		<glyph page="1" name="T" x="132" y="34" w="20" h="31" />
+		<glyph page="1" name="~" x="132" y="67" w="15" h="31" />
+		<glyph page="1" name="^" x="132" y="100" w="15" h="31" />
+		<glyph page="1" name="*" x="132" y="133" w="12" h="31" />
+		<glyph page="1" name=")" x="142" y="166" w="9" h="31" />
+		<glyph page="1" name="(" x="132" y="166" w="8" h="31" />
+		<glyph page="1" name="+" x="132" y="199" w="20" h="31" />
+		<glyph page="1" name="I" x="132" y="1" w="20" h="31" />
+		<glyph page="1" name="L" x="155" y="34" w="21" h="31" />
+		<glyph page="1" name="P" x="155" y="67" w="21" h="31" />
+		<glyph page="1" name="R" x="155" y="100" w="22" h="31" />
+		<glyph page="1" name="S" x="155" y="133" w="21" h="31" />
+		<glyph page="1" name="X" x="155" y="166" w="22" h="31" />
+		<glyph page="1" name="Y" x="155" y="199" w="21" h="31" />
+		<glyph page="1" name="J" x="155" y="1" w="22" h="31" />
+		<glyph page="1" name="N" x="179" y="34" w="22" h="31" />
+		<glyph page="1" name="U" x="179" y="67" w="22" h="31" />
+		<glyph page="1" name="V" x="179" y="100" w="22" h="31" />
+		<glyph page="1" name="Z" x="179" y="133" w="22" h="31" />
+		<glyph page="1" name="1" x="179" y="166" w="21" h="31" />
+		<glyph page="1" name="4" x="179" y="199" w="22" h="31" />
+		<glyph page="1" name="K" x="179" y="1" w="22" h="31" />
+		<glyph page="1" name="O" x="204" y="34" w="23" h="31" />
+		<glyph page="1" name="Q" x="204" y="67" w="23" h="31" />
+		<glyph page="1" name="2" x="204" y="100" w="22" h="31" />
+		<glyph page="1" name="3" x="204" y="133" w="23" h="31" />
+		<glyph page="1" name="5" x="204" y="166" w="23" h="31" />
+		<glyph page="1" name="6" x="204" y="199" w="23" h="31" />
+		<glyph page="1" name="M" x="204" y="1" w="26" h="31" />
+		<glyph page="1" name="7" x="232" y="34" w="21" h="31" />
+		<glyph page="1" name="8" x="232" y="67" w="23" h="31" />
+		<glyph page="1" name="9" x="232" y="100" w="23" h="31" />
+		<glyph page="1" name="0" x="232" y="133" w="23" h="31" />
+		<glyph page="1" name="@" x="232" y="166" w="23" h="31" />
+		<glyph page="1" name="#" x="232" y="199" w="22" h="31" />
+		<glyph page="1" name="W" x="232" y="1" w="26" h="31" />
+		<glyph page="1" name="%" x="261" y="34" w="21" h="31" />
+		<glyph page="1" name="_" x="261" y="67" w="21" h="31" />
+		<glyph page="1" name="=" x="261" y="100" w="21" h="31" />
+		<glyph page="1" name="]" x="271" y="133" w="7" h="31" />
+		<glyph page="1" name="[" x="261" y="133" w="7" h="31" />
+		<glyph page="1" name="\" x="261" y="166" w="17" h="31" />
+		<glyph page="1" name="{" x="261" y="199" w="7" h="31" />
+		<glyph page="1" name="}" x="271" y="199" w="7" h="31" />
+		<glyph page="1" name="$" x="261" y="1" w="22" h="31" />
+		<glyph page="1" name="-" x="285" y="34" w="22" h="31" />
+		<glyph page="1" name="'" x="295" y="67" w="8" h="31" />
+		<glyph page="1" name=";" x="285" y="67" w="7" h="31" />
+		<glyph page="1" name="," x="295" y="100" w="8" h="31" />
+		<glyph page="1" name=":" x="285" y="100" w="7" h="31" />
+		<glyph page="1" name="&quot;" x="285" y="133" w="14" h="31" />
+		<glyph page="1" name="&lt;" x="296" y="166" w="11" h="31" />
+		<glyph page="1" name="." x="285" y="166" w="8" h="31" />
+		<glyph page="1" name="/" x="285" y="199" w="18" h="31" />
+		<glyph page="1" name="&amp;" x="285" y="1" w="23" h="31" />
+		<glyph page="1" name="&gt;" x="311" y="1" w="12" h="31" />
+		<glyph page="1" name="?" x="325" y="1" w="21" h="31" />
+	</glyphs>
+</font>

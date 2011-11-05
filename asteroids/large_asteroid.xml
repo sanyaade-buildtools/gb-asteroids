@@ -17,6 +17,7 @@
     
     <!-- all the lua scripts that make up this actor -->
     <scripts>
+        <script file="large_asteroid.lua" />
         <script file="asteroid.lua" />
         <script file="wrap.lua" />
     </scripts>

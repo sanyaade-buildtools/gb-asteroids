@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<scene>
+    <cameras>
+        <camera
+            name="main"
+            />
+    </cameras>
+    
+    <scripts>
+        <script file="playfield.lua" />
+    </scripts>
+</scene>

@@ -4,20 +4,20 @@
     <behaviors>
         <behavior type="sprite">
             <properties 
-            texture="spaceship" 
-            />
+                texture="spaceship" 
+                />
         </behavior>
-                <behavior type="rigidbody" />
+        <behavior type="rigidbody" />
         <behavior type="circlecollider">
             <properties
                 radius="16"
                 />
         </behavior>
-        <behavior type="emitter" >
-            <properties texture="tiny particle" />
+        <behavior type="emitter">
+            <properties
+                texture="tiny particle"
+                />
         </behavior>
-        
-
     </behaviors>
     
     <!-- all the lua scripts that make up this actor -->
@@ -30,4 +30,9 @@
     <tags>
         <tag>player</tag>
     </tags>
+    
+    <!-- child actors (accessible in script, transformed relative) -->
+    <components>
+        <component name="shields_s" prefab="shields_p" />
+    </components>
 </prefab>

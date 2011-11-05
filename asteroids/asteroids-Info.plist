@@ -26,10 +26,6 @@
 	<string></string>
 	<key>CFPlugInDynamicRegistration</key>
 	<string>NO</string>
-	<key>Display Width</key>
-	<integer>1024</integer>
-	<key>Display Height</key>
-	<integer>768</integer>
 	<key>CFPlugInFactories</key>
 	<dict>
 		<key>00000000-0000-0000-0000-000000000000</key>

@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<group>
+<manifest>
     <asset name="master" type="texture" file="master.png" />
     <asset name="starfield" type="texture" file="rdx_starfield.jpeg" />
     
     <!-- player textures -->
     <asset name="spaceship" type="texture" file="spaceship.png" />
     <asset name="blast" type="texture" file="bullet.png" />
+    <asset name="shields_tex" type="texture" file="shields.png" />
     
     <!-- particle textures -->
     <asset name="tiny particle" type="texture" file="particle.bmp" />
@@ -22,12 +23,21 @@
     <!-- large asteroid textures -->
     <asset name="large asteroid 1" type="texture" file="large_asteroid.png" />
     
-    <!-- player prefab -->
+    <!-- actor prefabs -->
     <asset name="backdrop" type="prefab" file="backdrop.xml" />
     <asset name="player" type="prefab" file="spaceship.xml" />
+    <asset name="shields_p" type="prefab" file="shields.xml" />
     <asset name="small asteroid" type="prefab" file="small_asteroid.xml" />
     <asset name="medium asteroid" type="prefab" file="medium_asteroid.xml" />
     <asset name="large asteroid" type="prefab" file="large_asteroid.xml" />
     <asset name="bullet" type="prefab" file="bullet.xml" />
-    <asset name="asteroid field" type="prefab" file="asteroid_field.xml" />
-</group>
+    
+    <!-- sound files -->
+    <asset name="laser" type="sound" file="laser.wav" />
+    <asset name="shields" type="sound" file="shields.wav" />
+    <asset name="boom" type="sound" file="boom.wav" />
+    <asset name="thrusters" type="sound" file="thrusters.wav" />
+    
+    <!-- font files -->
+    <asset name="android" type="font" file="android.xml" />
+</manifest>
