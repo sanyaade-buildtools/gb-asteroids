@@ -16,6 +16,18 @@
         <behavior type="emitter">
             <properties
                 texture="tiny particle"
+                lifetime="infinite"
+                rate="20"
+                y="-14"
+                spread="20"
+                minparticlelife="1"
+                maxparticlelife="2"
+                minspeed="2"
+                maxspeed="5"
+                startcolor="#ff0000ff"
+                endcolor="#ffff0000"
+                startscale="1.5"
+                endscale="0.25"
                 />
         </behavior>
     </behaviors>
