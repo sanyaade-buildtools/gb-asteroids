@@ -13,6 +13,7 @@ function collide (actor)
       local x,y=transform.position()
 
       layer.spawn('explosion').transform.set_position(x,y)
+      layer.spawn('pellet').transform.set_position(x,y)
 
       for i=1,3,1 do
          layer.spawn('small asteroid').transform.set_position(x,y)

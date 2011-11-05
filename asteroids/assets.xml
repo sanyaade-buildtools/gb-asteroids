@@ -33,12 +33,14 @@
     <asset name="large asteroid" type="prefab" file="large_asteroid.xml" />
     <asset name="bullet" type="prefab" file="bullet.xml" />
     <asset name="explosion" type="prefab" file="explosion.xml" />
+    <asset name="pellet" type="prefab" file="pellet.xml" />
     
     <!-- sound files -->
     <asset name="laser" type="sound" file="laser.wav" />
     <asset name="shields" type="sound" file="shields.wav" />
     <asset name="boom" type="sound" file="boom.wav" />
     <asset name="thrusters" type="sound" file="thrusters.wav" />
+    <asset name="pickup" type="sound" file="pellet.wav" />
     
     <!-- font files -->
     <asset name="android" type="font" file="android.xml" />

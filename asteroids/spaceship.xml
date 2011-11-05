@@ -3,15 +3,11 @@
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
         <behavior type="sprite">
-            <properties 
-                texture="spaceship" 
-                />
+            <properties texture="spaceship" />
         </behavior>
         <behavior type="rigidbody" />
         <behavior type="circlecollider">
-            <properties
-                radius="16"
-                />
+            <properties radius="16" />
         </behavior>
         <behavior type="emitter">
             <properties

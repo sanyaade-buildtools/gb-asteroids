@@ -66,6 +66,7 @@ function thrust ()
    if thrusting then
       local x, y = transform.rotate_point(0, 100 * clock.delta_time())
 
+      rigidbody.clamp_velocity(300)
       rigidbody.apply_impulse(x, y)
       emitter.start()
 
@@ -119,6 +120,16 @@ function collide (thing)
          print('BOOM! - player died')
       end
    end
+
+   if thing.has_tag('pellet') then
+      thing.destroy()
+      audio.play('pickup')
+      game.scoring.add_points(100)
+      energy = energy + 10
+      if energy > 100 then
+         energy = 100
+      end
+   end
 end
 
 function ui ()
@@ -127,6 +138,6 @@ function ui ()
    gui.draw_string("Score: " .. game.scoring.points, 230, -10, "android")
    gui.draw_string("Time: " .. string.format("%.2f", clock.time()), 370, -10, "android")
    gui.draw_string("FPS: " .. string.format("%.1f", clock.fps()), 500, -10, "android")
-   gui.set_color(0.2, 0.5, 0.8)
+   gui.set_color(0.3, 1, 0.3)
    gui.draw_rect(80, -7, energy, -10, true)
 end
