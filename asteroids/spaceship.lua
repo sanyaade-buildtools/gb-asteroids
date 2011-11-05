@@ -124,7 +124,8 @@ end
 function ui ()
    gui.set_color(1, 1, 1)
    gui.draw_string("Energy", 10, -10, "android")
-   gui.draw_string("Score: " .. game.scoring.points, 300, -10, "android")
+   gui.draw_string("Score: " .. game.scoring.points, 230, -10, "android")
+   gui.draw_string("Time: " .. string.format("%.1f", clock.time()), 370, -10, "android")
    gui.set_color(1, 0, 0)
-   gui.draw_rect(140, -5, energy, -12, true)
+   gui.draw_rect(80, -7, energy, -10, true)
 end
