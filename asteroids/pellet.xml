@@ -13,7 +13,7 @@
                 minspeed="2"
                 maxspeed="5"
                 startcolor="#20ff20ff"
-                endcolor="#00200000"
+                endcolor="#20ff2000"
                 startscale="0.75"
                 endscale="0.25"
                 />
