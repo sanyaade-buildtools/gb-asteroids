@@ -33,7 +33,6 @@
 		1FC4C1511462411A009F8DBE /* shields.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C1501462411A009F8DBE /* shields.xml */; };
 		1FCD60AF14520E5400ADCFDC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */; };
 		1FCD60B514520E5400ADCFDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60B314520E5400ADCFDC /* InfoPlist.strings */; };
-		1FCD60BD14520E8600ADCFDC /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60BC14520E8600ADCFDC /* master.png */; };
 		1FCD60C814521AAE00ADCFDC /* spaceship.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60C614521AAE00ADCFDC /* spaceship.lua */; };
 		1FCD60C914521AAE00ADCFDC /* playfield.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60C714521AAE00ADCFDC /* playfield.lua */; };
 		1FCD60CC14521C0700ADCFDC /* Project.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60CB14521C0700ADCFDC /* Project.plist */; };
@@ -49,6 +48,7 @@
 		1FF85B481465CA1A00A8BD34 /* explosion.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B471465CA1A00A8BD34 /* explosion.xml */; };
 		1FF85B4B1465CEC400A8BD34 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B4A1465CEC400A8BD34 /* explosion.png */; };
 		1FF85B4F1465CF8600A8BD34 /* explosion.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B4E1465CF8600A8BD34 /* explosion.lua */; };
+		1FF85B511465D97D00A8BD34 /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B501465D97D00A8BD34 /* master.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +81,6 @@
 		1FCD60B214520E5400ADCFDC /* asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asteroids-Info.plist"; sourceTree = "<group>"; };
 		1FCD60B414520E5400ADCFDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FCD60B614520E5400ADCFDC /* asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asteroids-Prefix.pch"; sourceTree = "<group>"; };
-		1FCD60BC14520E8600ADCFDC /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
 		1FCD60C614521AAE00ADCFDC /* spaceship.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spaceship.lua; sourceTree = "<group>"; };
 		1FCD60C714521AAE00ADCFDC /* playfield.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = playfield.lua; sourceTree = "<group>"; };
 		1FCD60CB14521C0700ADCFDC /* Project.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Project.plist; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		1FF85B471465CA1A00A8BD34 /* explosion.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = explosion.xml; sourceTree = "<group>"; };
 		1FF85B4A1465CEC400A8BD34 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
 		1FF85B4E1465CF8600A8BD34 /* explosion.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = explosion.lua; sourceTree = "<group>"; };
+		1FF85B501465D97D00A8BD34 /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +209,7 @@
 		1FCD613C1454791800ADCFDC /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				1FF85B501465D97D00A8BD34 /* master.png */,
 				1FF85B4A1465CEC400A8BD34 /* explosion.png */,
 				1F999F711464F56C00C89B93 /* android_1.png */,
 				1FC4C14E146237BF009F8DBE /* shields.png */,
@@ -222,7 +223,6 @@
 				1FCD614814549E0700ADCFDC /* small_asteroid_2.png */,
 				1FCD614914549E0700ADCFDC /* small_asteroid_3.png */,
 				1FCD61451454934F00ADCFDC /* spaceship.png */,
-				1FCD60BC14520E8600ADCFDC /* master.png */,
 			);
 			name = Textures;
 			sourceTree = "<group>";
@@ -306,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCD60B514520E5400ADCFDC /* InfoPlist.strings in Resources */,
-				1FCD60BD14520E8600ADCFDC /* master.png in Resources */,
 				1FCD60C814521AAE00ADCFDC /* spaceship.lua in Resources */,
 				1FCD60C914521AAE00ADCFDC /* playfield.lua in Resources */,
 				1FCD60CC14521C0700ADCFDC /* Project.plist in Resources */,
@@ -346,6 +345,7 @@
 				1FF85B481465CA1A00A8BD34 /* explosion.xml in Resources */,
 				1FF85B4B1465CEC400A8BD34 /* explosion.png in Resources */,
 				1FF85B4F1465CF8600A8BD34 /* explosion.lua in Resources */,
+				1FF85B511465D97D00A8BD34 /* master.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
