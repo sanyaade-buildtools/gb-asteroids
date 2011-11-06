@@ -5,6 +5,13 @@
         <behavior type="sprite">
             <properties texture="spaceship" />
         </behavior>
+        <behavior type="sprite">
+            <properties 
+                name="shields"
+                texture="shields_tex"
+                visible="no"
+                />
+        </behavior>
         <behavior type="rigidbody" />
         <behavior type="circlecollider">
             <properties radius="10" />
@@ -38,9 +45,4 @@
     <tags>
         <tag>player</tag>
     </tags>
-    
-    <!-- child actors (accessible in script, transformed relative) -->
-    <components>
-        <component name="shields_s" prefab="shields_p" />
-    </components>
 </prefab>

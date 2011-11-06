@@ -49,15 +49,15 @@ function defenses ()
    shields_up = input.key_down(input.KEY_DOWN) and spend_energy(50)
 
    if shields_up then
-      if not audio.is_playing(shields) then
-         shields = audio.play('shields')
+      if not audio.is_playing(shields_sound) then
+         shields_sound = audio.play('shields')
       end
    else
-      audio.stop(shields)
+      audio.stop(shields_sound)
    end
 
    -- show the shields sprite if they are up
-   components.shields_s.set_visible(shields_up)
+   shields.set_visible(shields_up)
 end
 
 function thrust ()
@@ -125,7 +125,7 @@ function collide (thing)
       thing.destroy()
       audio.play('pickup')
       game.scoring.add_points(100)
-      energy = energy + 25
+      energy = energy + 7
       if energy > 100 then
          energy = 100
       end

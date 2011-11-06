@@ -6,7 +6,7 @@
             <properties
             texture="exp particle"
             lifetime="one shot"
-            rate="3"
+            rate="5"
             spread="360"
             minparticlelife="0.5"
             maxparticlelife="1"
