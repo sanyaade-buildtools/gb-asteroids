@@ -2,12 +2,14 @@
 <prefab>
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
-        <behavior type="sprite" />
-        <behavior type="rigidbody" />
+        <behavior type="sprite">
+            <properties name="sprite" atlas="rocks" />
+        </behavior>
+        <behavior type="rigidbody">
+            <properties name="rigidbody" />
+        </behavior>
         <behavior type="circlecollider">
-            <properties
-                radius="22"
-                />
+            <properties radius="24" />
         </behavior>
     </behaviors>
     

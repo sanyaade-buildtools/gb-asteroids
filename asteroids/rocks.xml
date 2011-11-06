@@ -19,11 +19,6 @@
         
         <!-- moons -->
         <frame name="moon 1" x="196" y="333" w="30" h="30" />
-        <frame name="moond 2" x="196" y="377" w="30" h="30" />
+        <frame name="moon 2" x="196" y="377" w="30" h="30" />
     </frames>
-    
-    <!-- animation sequences -->
-    <anims>
-        <!-- <anim name= x= y= w= h= pad= spritew= spriteh= -->
-    </anims>
 </atlas>

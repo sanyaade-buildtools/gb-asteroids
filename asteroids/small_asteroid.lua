@@ -6,7 +6,7 @@ function start ()
                      'small asteroid 3'}
 
    -- pick a random texture and use it
-   sprite.set_texture_frame('rocks',textures[random.rand(1,#textures)])
+   sprite.set_frame(textures[random.rand(1,#textures)])
 end
 
 function collide (actor)

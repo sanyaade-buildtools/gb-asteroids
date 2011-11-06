@@ -3,7 +3,11 @@
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
         <behavior type="sprite">
-            <properties texture="spaceship" />
+            <properties 
+                name="sprite"
+                atlas="master"
+                frame="no-thrust"
+                />
         </behavior>
         <behavior type="sprite">
             <properties 
@@ -12,13 +16,17 @@
                 visible="no"
                 />
         </behavior>
-        <behavior type="rigidbody" />
+        <behavior type="rigidbody">
+            <properties name="rigidbody" />
+        </behavior>
         <behavior type="circlecollider">
             <properties radius="10" />
         </behavior>
         <behavior type="emitter">
             <properties
-                texture="tiny particle"
+                name="thrusters"
+                atlas="particles"
+                frame="tiny particle"
                 lifetime="infinite"
                 rate="20"
                 y="-14"

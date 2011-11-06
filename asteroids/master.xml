@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<atlas texture="master.png">
+    <frames>
+        <!-- player sprites -->
+        <frame name="no-thrust" x="470" y="400" w="27" h="27" />
+        <frame name="thrust" x="470" y="355" w="27" h="27" />
+        
+        <!-- blaster sprites -->
+        <frame name="blast" x="39" y="56" w="7" h="15" />
+    </frames>
+</atlas>

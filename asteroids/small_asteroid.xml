@@ -3,13 +3,17 @@
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
         <behavior type="sprite">
-            <properties scale="1.2" />
-        </behavior>
-        <behavior type="rigidbody" />
-        <behavior type="circlecollider">
             <properties
-                radius="9"
+                name="sprite"
+                atlas="rocks"
+                scale="1.2" 
                 />
+        </behavior>
+        <behavior type="rigidbody">
+            <properties name="rigidbody" />
+        </behavior>
+        <behavior type="circlecollider">
+            <properties radius="11" />
         </behavior>
     </behaviors>
     

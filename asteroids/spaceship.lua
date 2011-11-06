@@ -68,14 +68,16 @@ function thrust ()
 
       rigidbody.clamp_velocity(300)
       rigidbody.apply_impulse(x, y)
-      emitter.start()
+      sprite.set_frame('thrust')
+      thrusters.start()
 
-      if not audio.is_playing(thrusters) then
-         thrusters = audio.play('thrusters')
+      if not audio.is_playing(thruster_sound) then
+         thruster_sound = audio.play('thrusters')
       end
    else
-      emitter.stop()
-      audio.stop(thrusters)
+      thrusters.stop()
+      sprite.set_frame('no-thrust')
+      audio.stop(thruster_sound)
    end
 end
 
@@ -134,9 +136,9 @@ end
 
 function ui ()
    gui.set_color(1, 1, 1)
-   gui.draw_string("Energy", 10, -10, "android")
-   gui.draw_string("Score: " .. game.scoring.points, 230, -10, "android")
-   gui.draw_string("Time: " .. string.format("%.2f", clock.time()), 370, -10, "android")
+   gui.draw_string("Energy", 10, -20, "android")
+   gui.draw_string("Score: " .. game.scoring.points, 230, -20, "android")
+   gui.draw_string("Time: " .. string.format("%.2f", clock.time()), 370, -20, "android")
    gui.set_color(0.2, 1, 0.2)
-   gui.draw_rect(80, -7, energy, -10, true)
+   gui.draw_rect(80, -5, energy, -10, true)
 end

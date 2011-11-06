@@ -4,7 +4,9 @@
     <behaviors>
         <behavior type="emitter">
             <properties
-                texture="exp particle"
+                name="emitter"
+                atlas="particles"
+                frame="shockwave"
                 lifetime="one shot"
                 rate="5"
                 spread="360"

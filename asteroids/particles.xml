@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<atlas texture="particles.png">
+    <frames>
+        <!-- player sprites -->
+        <frame name="tiny particle" x="7" y="139" w="41" h="41" />
+        <frame name="shockwave" x="125" y="2" w="120" h="120" />
+    </frames>
+</atlas>

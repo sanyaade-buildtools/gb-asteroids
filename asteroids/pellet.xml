@@ -4,7 +4,9 @@
     <behaviors>
         <behavior type="emitter">
             <properties 
-                texture="tiny particle"
+                name="emitter"
+                atlas="particles"
+                frame="tiny particle"
                 lifetime="6"
                 rate="100"
                 spread="360"
@@ -19,7 +21,7 @@
                 />
         </behavior>
         <behavior type="rigidbody">
-            <properties trigger="true" />
+            <properties name="rigidbody" trigger="true" />
         </behavior>
         <behavior type="circlecollider">
             <properties radius="1" />

@@ -4,10 +4,13 @@
     <behaviors>
         <behavior type="sprite">
             <properties 
-                texture="blast" 
+                atlas="master"
+                frame="blast"
                 />
         </behavior>
-        <behavior type="rigidbody" />
+        <behavior type="rigidbody">
+            <properties name="rigidbody" />
+        </behavior>
         <behavior type="segmentcollider">
             <properties
                 y1="-8"
