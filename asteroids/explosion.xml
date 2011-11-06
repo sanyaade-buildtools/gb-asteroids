@@ -4,16 +4,16 @@
     <behaviors>
         <behavior type="emitter">
             <properties
-            texture="exp particle"
-            lifetime="one shot"
-            rate="5"
-            spread="360"
-            minparticlelife="0.5"
-            maxparticlelife="1"
-            startcolor="#ff0000ff"
-            endcolor="#ffff0000"
-            startscale="0.25"
-            endscale="1.0"
+                texture="exp particle"
+                lifetime="one shot"
+                rate="5"
+                spread="360"
+                minparticlelife="0.5"
+                maxparticlelife="1"
+                startcolor="#ff0000ff"
+                endcolor="#ffff0000"
+                startscale="0.25"
+                endscale="1.0"
             />
         </behavior>
     </behaviors>

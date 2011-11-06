@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<atlas texture="rocks.png">
+    <!-- single frames -->
+    <frames>
+        <!-- large asteroids -->
+        <frame name="large asteroid 1" x="68" y="276" w="44" h="44" />
+        <frame name="large asteroid 2" x="221" y="221" w="44" h="44" />
+        <frame name="large asteroid 3" x="230" y="156" w="44" h="44" />
+        
+        <!-- medium asteroids -->
+        <frame name="asteroid 1" x="256" y="88" w="28" h="28" />
+        <frame name="asteroid 2" x="235" y="50" w="28" h="28" />
+        <frame name="asteroid 3" x="248" y="11" w="28" h="28" />
+        
+        <!-- small asteroids -->
+        <frame name="small asteroid 1" x="24" y="9" w="18" h="18" />
+        <frame name="small asteroid 2" x="26" y="36" w="18" h="18" />
+        <frame name="small asteroid 3" x="27" y="60" w="18" h="18" />
+        
+        <!-- moons -->
+        <frame name="moon 1" x="196" y="333" w="30" h="30" />
+        <frame name="moond 2" x="196" y="377" w="30" h="30" />
+    </frames>
+    
+    <!-- animation sequences -->
+    <anims>
+        <!-- <anim name= x= y= w= h= pad= spritew= spriteh= -->
+    </anims>
+</atlas>

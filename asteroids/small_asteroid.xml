@@ -2,7 +2,9 @@
 <prefab>
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
-        <behavior type="sprite" />
+        <behavior type="sprite">
+            <properties scale="1.2" />
+        </behavior>
         <behavior type="rigidbody" />
         <behavior type="circlecollider">
             <properties

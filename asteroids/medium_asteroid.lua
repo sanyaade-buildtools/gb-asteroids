@@ -1,11 +1,12 @@
 -- pick a random texture
 
 function start ()
-   local textures = {'medium asteroid 1',
-                     'medium asteroid 2'}
+   local textures = {'asteroid 1',
+                     'asteroid 2',
+                     'asteroid 3'}
 
    -- pick a random texture and use it
-   sprite.set_texture(textures[random.rand(1,#textures)])
+   sprite.set_texture_frame('rocks',textures[random.rand(1,#textures)])
 end
 
 function collide (actor)

@@ -52,6 +52,8 @@
 		1FF85B531465E26900A8BD34 /* pellet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B521465E26900A8BD34 /* pellet.png */; };
 		1FF85B551465E29000A8BD34 /* pellet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B541465E29000A8BD34 /* pellet.xml */; };
 		1FF85B591465E91E00A8BD34 /* pellet.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B581465E91E00A8BD34 /* pellet.lua */; };
+		1FF85B5B1466EA4800A8BD34 /* rocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B5A1466EA4800A8BD34 /* rocks.png */; };
+		1FF85B611466F16700A8BD34 /* rocks.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B601466F16700A8BD34 /* rocks.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +105,8 @@
 		1FF85B521465E26900A8BD34 /* pellet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pellet.png; sourceTree = "<group>"; };
 		1FF85B541465E29000A8BD34 /* pellet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pellet.xml; sourceTree = "<group>"; };
 		1FF85B581465E91E00A8BD34 /* pellet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pellet.lua; sourceTree = "<group>"; };
+		1FF85B5A1466EA4800A8BD34 /* rocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocks.png; sourceTree = "<group>"; };
+		1FF85B601466F16700A8BD34 /* rocks.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rocks.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,11 +178,12 @@
 			children = (
 				1FCD613F1454794A00ADCFDC /* Project */,
 				1FCD613D1454792E00ADCFDC /* Assets */,
-				1FCD6161145604F700ADCFDC /* Actor Prefabs */,
 				1FCD613C1454791800ADCFDC /* Textures */,
+				1FF85B5F1466EBFB00A8BD34 /* Texture Atlases */,
 				1F999F6A1464E85F00C89B93 /* Fonts */,
 				1FC4C134145DCCF4009F8DBE /* Sounds */,
 				1FC4C126145CC102009F8DBE /* Scenes */,
+				1FCD6161145604F700ADCFDC /* Prefabs */,
 				1FCD6139145476F500ADCFDC /* Scripts */,
 				1FCD60B114520E5400ADCFDC /* Supporting Files */,
 			);
@@ -216,6 +221,7 @@
 		1FCD613C1454791800ADCFDC /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				1FF85B5A1466EA4800A8BD34 /* rocks.png */,
 				1FF85B521465E26900A8BD34 /* pellet.png */,
 				1FF85B501465D97D00A8BD34 /* master.png */,
 				1FF85B4A1465CEC400A8BD34 /* explosion.png */,
@@ -251,7 +257,7 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
-		1FCD6161145604F700ADCFDC /* Actor Prefabs */ = {
+		1FCD6161145604F700ADCFDC /* Prefabs */ = {
 			isa = PBXGroup;
 			children = (
 				1FCD61621456051200ADCFDC /* spaceship.xml */,
@@ -264,7 +270,15 @@
 				1FF85B471465CA1A00A8BD34 /* explosion.xml */,
 				1FF85B541465E29000A8BD34 /* pellet.xml */,
 			);
-			name = "Actor Prefabs";
+			name = Prefabs;
+			sourceTree = "<group>";
+		};
+		1FF85B5F1466EBFB00A8BD34 /* Texture Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				1FF85B601466F16700A8BD34 /* rocks.xml */,
+			);
+			name = "Texture Atlases";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +372,8 @@
 				1FF85B531465E26900A8BD34 /* pellet.png in Resources */,
 				1FF85B551465E29000A8BD34 /* pellet.xml in Resources */,
 				1FF85B591465E91E00A8BD34 /* pellet.lua in Resources */,
+				1FF85B5B1466EA4800A8BD34 /* rocks.png in Resources */,
+				1FF85B611466F16700A8BD34 /* rocks.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

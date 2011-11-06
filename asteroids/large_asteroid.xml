@@ -2,15 +2,11 @@
 <prefab>
     <!-- all the built-in behaviors this actor has -->
     <behaviors>
-        <behavior type="sprite">
-            <properties
-                texture="large asteroid 1" 
-                />
-        </behavior>
+        <behavior type="sprite" />
         <behavior type="rigidbody" />
         <behavior type="circlecollider">
             <properties
-                radius="28"
+                radius="22"
                 />
         </behavior>
     </behaviors>

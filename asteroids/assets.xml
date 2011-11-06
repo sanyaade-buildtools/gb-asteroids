@@ -3,6 +3,9 @@
     <asset name="master" type="texture" file="master.png" />
     <asset name="starfield" type="texture" file="rdx_starfield.jpeg" />
     
+    <!-- texture atlases -->
+    <asset name="rocks" type="atlas" file="rocks.xml" />
+    
     <!-- player textures -->
     <asset name="spaceship" type="texture" file="spaceship.png" />
     <asset name="blast" type="texture" file="bullet.png" />
@@ -11,18 +14,6 @@
     <!-- particle textures -->
     <asset name="tiny particle" type="texture" file="particle.bmp" />
     <asset name="exp particle" type="texture" file="explosion.png" />
-    
-    <!-- small asteroid textures -->
-    <asset name="small asteroid 1" type="texture" file="small_asteroid_1.png" />
-    <asset name="small asteroid 2" type="texture" file="small_asteroid_2.png" />
-    <asset name="small asteroid 3" type="texture" file="small_asteroid_3.png" />
-    
-    <!-- medium asteroid textures -->
-    <asset name="medium asteroid 1" type="texture" file="medium_asteroid_1.png" />
-    <asset name="medium asteroid 2" type="texture" file="medium_asteroid_2.png" />
-    
-    <!-- large asteroid textures -->
-    <asset name="large asteroid 1" type="texture" file="large_asteroid.png" />
     
     <!-- actor prefabs -->
     <asset name="backdrop" type="prefab" file="backdrop.xml" />
