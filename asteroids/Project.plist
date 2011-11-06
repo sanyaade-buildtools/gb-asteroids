@@ -5,7 +5,7 @@
 	<key>Initial Scene</key>
 	<string>playfield.lua</string>
 	<key>Display Title</key>
-	<string>Asteroids Tutorial</string>
+	<string>Asteroids Test Suite</string>
 	<key>Display Width</key>
 	<integer>640</integer>
 	<key>Display Height</key>

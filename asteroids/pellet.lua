@@ -15,13 +15,12 @@ function advance ()
    local dy = py-y
    local d = math.sqrt(dx*dx + dy*dy)
    
-   dx = (dx * 200) / d
-   dy = (dy * 200) / d
+   dx = (dx * 100) / d
+   dy = (dy * 100) / d
 
    -- slowly apply force towards the player
    rigidbody.clamp_velocity(150)
-   rigidbody.apply_impulse(dx * clock.delta_time(),
-                           dy * clock.delta_time())
+   rigidbody.apply_impulse(dx, dy)
 
    -- check to see if it's dead
    if not emitter.is_running() then

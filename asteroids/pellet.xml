@@ -5,24 +5,24 @@
         <behavior type="emitter">
             <properties 
                 texture="tiny particle"
-                lifetime="5"
-                rate="40"
+                lifetime="6"
+                rate="100"
                 spread="360"
                 minparticlelife="0.5"
-                maxparticlelife="1.0"
+                maxparticlelife="0.5"
                 minspeed="2"
                 maxspeed="5"
                 startcolor="#20ff20ff"
                 endcolor="#20ff2000"
-                startscale="0.75"
-                endscale="0.25"
+                startscale="0.35"
+                endscale="0.0"
                 />
         </behavior>
         <behavior type="rigidbody">
             <properties trigger="true" />
         </behavior>
         <behavior type="circlecollider">
-            <properties radius="3" />
+            <properties radius="1" />
         </behavior>
     </behaviors>
     
