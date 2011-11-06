@@ -179,7 +179,7 @@
 				1FCD613F1454794A00ADCFDC /* Project */,
 				1FCD613D1454792E00ADCFDC /* Assets */,
 				1FCD613C1454791800ADCFDC /* Textures */,
-				1FF85B5F1466EBFB00A8BD34 /* Texture Atlases */,
+				1FF85B5F1466EBFB00A8BD34 /* Atlases */,
 				1F999F6A1464E85F00C89B93 /* Fonts */,
 				1FC4C134145DCCF4009F8DBE /* Sounds */,
 				1FC4C126145CC102009F8DBE /* Scenes */,
@@ -273,12 +273,12 @@
 			name = Prefabs;
 			sourceTree = "<group>";
 		};
-		1FF85B5F1466EBFB00A8BD34 /* Texture Atlases */ = {
+		1FF85B5F1466EBFB00A8BD34 /* Atlases */ = {
 			isa = PBXGroup;
 			children = (
 				1FF85B601466F16700A8BD34 /* rocks.xml */,
 			);
-			name = "Texture Atlases";
+			name = Atlases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

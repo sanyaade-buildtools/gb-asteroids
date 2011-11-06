@@ -8,7 +8,7 @@
         <behavior type="rigidbody" />
         <behavior type="circlecollider">
             <properties
-                radius="16"
+                radius="9"
                 />
         </behavior>
     </behaviors>
