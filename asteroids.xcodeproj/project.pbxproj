@@ -45,6 +45,8 @@
 		1FF85B6714671D9100A8BD34 /* master.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B6614671D9100A8BD34 /* master.xml */; };
 		1FF85B691467228900A8BD34 /* particles.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B681467228900A8BD34 /* particles.xml */; };
 		1FF85B6B146723AC00A8BD34 /* particles.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B6A146723AC00A8BD34 /* particles.png */; };
+		1FF85B6D14677A3E00A8BD34 /* health.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B6C14677A3E00A8BD34 /* health.xml */; };
+		1FF85B6F14677A7D00A8BD34 /* health.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FF85B6E14677A7D00A8BD34 /* health.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +91,8 @@
 		1FF85B6614671D9100A8BD34 /* master.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = master.xml; sourceTree = "<group>"; };
 		1FF85B681467228900A8BD34 /* particles.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = particles.xml; sourceTree = "<group>"; };
 		1FF85B6A146723AC00A8BD34 /* particles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particles.png; sourceTree = "<group>"; };
+		1FF85B6C14677A3E00A8BD34 /* health.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = health.xml; sourceTree = "<group>"; };
+		1FF85B6E14677A7D00A8BD34 /* health.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = health.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,7 @@
 		1FCD6139145476F500ADCFDC /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
+				1FF85B6E14677A7D00A8BD34 /* health.lua */,
 				1FF85B581465E91E00A8BD34 /* pellet.lua */,
 				1FF85B4E1465CF8600A8BD34 /* explosion.lua */,
 				1FC4C141146056BD009F8DBE /* scoring.lua */,
@@ -240,6 +245,7 @@
 				1F89B0601457E3C200B931AE /* bullet.xml */,
 				1FF85B471465CA1A00A8BD34 /* explosion.xml */,
 				1FF85B541465E29000A8BD34 /* pellet.xml */,
+				1FF85B6C14677A3E00A8BD34 /* health.xml */,
 			);
 			name = Prefabs;
 			sourceTree = "<group>";
@@ -338,6 +344,8 @@
 				1FF85B6714671D9100A8BD34 /* master.xml in Resources */,
 				1FF85B691467228900A8BD34 /* particles.xml in Resources */,
 				1FF85B6B146723AC00A8BD34 /* particles.png in Resources */,
+				1FF85B6D14677A3E00A8BD34 /* health.xml in Resources */,
+				1FF85B6F14677A7D00A8BD34 /* health.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

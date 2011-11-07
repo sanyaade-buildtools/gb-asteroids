@@ -8,4 +8,17 @@
         <!-- blaster sprites -->
         <frame name="blast" x="39" y="56" w="7" h="15" />
     </frames>
+    
+    <anims>
+        <anim
+            name="rotate"
+            x="45"
+            y="188"
+            w="14"
+            h="11"
+            pad="2"
+            rows="6"
+            looping="yes"
+            fps="10" />
+    </anims>
 </atlas>

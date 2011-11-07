@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<prefab>
+    <!-- all the built-in behaviors this actor has -->
+    <behaviors>
+        <behavior type="sprite">
+            <properties 
+                name="sprite"
+                atlas="master"
+                anim="rotate"
+                />
+        </behavior>
+        <behavior type="rigidbody">
+            <properties name="rigidbody" trigger="true" />
+        </behavior>
+        <behavior type="circlecollider">
+            <properties radius="2" />
+        </behavior>
+    </behaviors>
+    
+    <!-- tags -->
+    <tags>
+        <tag>pellet</tag>
+    </tags>
+    
+    <!-- all the lua scripts that make up this actor -->
+    <scripts>
+        <script file="health.lua" />
+    </scripts>
+</prefab>

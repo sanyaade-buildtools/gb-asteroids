@@ -15,6 +15,7 @@
     <asset name="bullet" type="prefab" file="bullet.xml" />
     <asset name="explosion" type="prefab" file="explosion.xml" />
     <asset name="pellet" type="prefab" file="pellet.xml" />
+    <asset name="health" type="prefab" file="health.xml" />
     
     <!-- sound files -->
     <asset name="laser" type="sound" file="laser.wav" />
