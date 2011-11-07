@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F44BC87146845FB00A47A4C /* pellet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F44BC86146845FB00A47A4C /* pellet.wav */; };
 		1F89B0611457E3C200B931AE /* bullet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B0601457E3C200B931AE /* bullet.xml */; };
 		1F8B4F64145910CF00FAE3E8 /* bullet.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F63145910CF00FAE3E8 /* bullet.lua */; };
 		1F8B4F671459352300FAE3E8 /* wrap.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F661459352300FAE3E8 /* wrap.lua */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F44BC86146845FB00A47A4C /* pellet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pellet.wav; sourceTree = "<group>"; };
 		1F89B0601457E3C200B931AE /* bullet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bullet.xml; sourceTree = "<group>"; };
 		1F8B4F63145910CF00FAE3E8 /* bullet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bullet.lua; sourceTree = "<group>"; };
 		1F8B4F661459352300FAE3E8 /* wrap.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wrap.lua; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		1FC4C134145DCCF4009F8DBE /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				1F44BC86146845FB00A47A4C /* pellet.wav */,
 				1FC4C1461461F5D2009F8DBE /* thrusters.wav */,
 				1FC4C13F145F20BA009F8DBE /* boom.wav */,
 				1FC4C13B145DE2D2009F8DBE /* shields.wav */,
@@ -346,6 +349,7 @@
 				1FF85B6B146723AC00A8BD34 /* particles.png in Resources */,
 				1FF85B6D14677A3E00A8BD34 /* health.xml in Resources */,
 				1FF85B6F14677A7D00A8BD34 /* health.lua in Resources */,
+				1F44BC87146845FB00A47A4C /* pellet.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
