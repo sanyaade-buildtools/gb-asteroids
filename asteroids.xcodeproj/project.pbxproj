@@ -288,6 +288,9 @@
 /* Begin PBXProject section */
 		1FCD60A214520E5400ADCFDC /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1FCD60A514520E5400ADCFDC /* Build configuration list for PBXProject "asteroids" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
