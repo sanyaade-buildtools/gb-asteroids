@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <prefab>
-    <!-- all the built-in behaviors this actor has -->
-    <behaviors>
-        <behavior type="emitter">
+    <!-- all the built-in components this actor has -->
+    <components>
+        <component type="emitter">
             <properties 
                 name="emitter"
                 atlas="particles"
@@ -19,14 +19,14 @@
                 startscale="0.35"
                 endscale="0.0"
                 />
-        </behavior>
-        <behavior type="rigidbody">
+        </component>
+        <component type="rigidbody">
             <properties name="rigidbody" trigger="true" />
-        </behavior>
-        <behavior type="circlecollider">
+        </component>
+        <component type="circlecollider">
             <properties radius="1" />
-        </behavior>
-    </behaviors>
+        </component>
+    </components>
     
     <!-- tags -->
     <tags>

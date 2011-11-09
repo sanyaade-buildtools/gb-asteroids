@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <prefab>
-    <!-- all the built-in behaviors this actor has -->
-    <behaviors>
-        <behavior type="sprite">
+    <!-- all the built-in components this actor has -->
+    <components>
+        <component type="sprite">
             <properties name="sprite" atlas="rocks" />
-        </behavior>
-        <behavior type="rigidbody">
+        </component>
+        <component type="rigidbody">
             <properties name="rigidbody" />
-        </behavior>
-        <behavior type="circlecollider">
+        </component>
+        <component type="circlecollider">
             <properties radius="24" />
-        </behavior>
-    </behaviors>
+        </component>
+    </components>
     
     <!-- all the lua scripts that make up this actor -->
     <scripts>

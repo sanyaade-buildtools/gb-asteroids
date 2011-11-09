@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <prefab>
-    <!-- all the built-in behaviors this actor has -->
-    <behaviors>
-        <behavior type="sprite">
+    <!-- all the built-in components this actor has -->
+    <components>
+        <component type="sprite">
             <properties 
                 name="sprite"
                 atlas="master"
                 anim="rotate"
                 />
-        </behavior>
-        <behavior type="rigidbody">
+        </component>
+        <component type="rigidbody">
             <properties name="rigidbody" trigger="true" />
-        </behavior>
-        <behavior type="circlecollider">
+        </component>
+        <component type="circlecollider">
             <properties radius="2" />
-        </behavior>
-    </behaviors>
+        </component>
+    </components>
     
     <!-- tags -->
     <tags>
