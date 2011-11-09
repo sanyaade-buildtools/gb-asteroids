@@ -23,7 +23,7 @@
     </tags>
     
     <!-- all the lua scripts that make up this actor -->
-    <scripts>
-        <script file="health.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="health.lua" />
+    </behaviors>
 </prefab>

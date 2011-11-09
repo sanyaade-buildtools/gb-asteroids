@@ -21,7 +21,7 @@
     </components>
     
     <!-- all the lua scripts that make up this actor -->
-    <scripts>
-        <script file="explosion.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="explosion.lua" />
+    </behaviors>
 </prefab>

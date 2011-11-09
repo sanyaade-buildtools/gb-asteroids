@@ -14,11 +14,11 @@
     </components>
     
     <!-- all the lua scripts that make up this actor -->
-    <scripts>
-        <script file="medium_asteroid.lua" />
-        <script file="asteroid.lua" />
-        <script file="wrap.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="medium_asteroid.lua" />
+        <behavior file="asteroid.lua" />
+        <behavior file="wrap.lua" />
+    </behaviors>
     
     <!-- query tags -->
     <tags>

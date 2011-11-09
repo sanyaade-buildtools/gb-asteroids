@@ -12,7 +12,8 @@
         <component type="sprite">
             <properties 
                 name="shields"
-                texture="shields_tex"
+                atlas="master"
+                frame="shields"
                 visible="no"
                 />
         </component>
@@ -44,10 +45,10 @@
     </components>
     
     <!-- all the lua scripts that make up this actor -->
-    <scripts>
-        <script file="spaceship.lua" />
-        <script file="wrap.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="spaceship.lua" />
+        <behavior file="wrap.lua" />
+    </behaviors>
     
     <!-- query tags -->
     <tags>

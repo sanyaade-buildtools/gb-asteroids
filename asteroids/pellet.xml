@@ -34,7 +34,7 @@
     </tags>
     
     <!-- all the lua scripts that make up this actor -->
-    <scripts>
-        <script file="pellet.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="pellet.lua" />
+    </behaviors>
 </prefab>

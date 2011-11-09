@@ -20,10 +20,10 @@
     </components>
     
     <!-- component scripts -->
-    <scripts>
-        <script file="bullet.lua" />
-        <script file="wrap.lua" />
-    </scripts>
+    <behaviors>
+        <behavior file="bullet.lua" />
+        <behavior file="wrap.lua" />
+    </behaviors>
     
     <!-- query tags -->
     <tags>
