@@ -11,14 +11,16 @@
         <component type="circlecollider">
             <properties radius="16" />
         </component>
+        <component type="behavior">
+            <properties script="medium_asteroid.lua" />
+        </component>
+        <component type="behavior">
+            <properties script="asteroid.lua" />
+        </component>
+        <component type="behavior">
+            <properties script="wrap.lua" />
+        </component>
     </components>
-    
-    <!-- all the lua scripts that make up this actor -->
-    <behaviors>
-        <behavior file="medium_asteroid.lua" />
-        <behavior file="asteroid.lua" />
-        <behavior file="wrap.lua" />
-    </behaviors>
     
     <!-- query tags -->
     <tags>

@@ -17,13 +17,13 @@
                 y2="8"
                 />
         </component>
+        <component type="behavior">
+            <properties script="bullet.lua" />
+        </component>
+        <component type="behavior">
+            <properties script="wrap.lua" />
+        </component>
     </components>
-    
-    <!-- component scripts -->
-    <behaviors>
-        <behavior file="bullet.lua" />
-        <behavior file="wrap.lua" />
-    </behaviors>
     
     <!-- query tags -->
     <tags>

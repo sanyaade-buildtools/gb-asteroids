@@ -18,10 +18,8 @@
                 endscale="1.0"
             />
         </component>
+        <component type="behavior">
+            <properties script="explosion.lua" />
+        </component>
     </components>
-    
-    <!-- all the lua scripts that make up this actor -->
-    <behaviors>
-        <behavior file="explosion.lua" />
-    </behaviors>
 </prefab>

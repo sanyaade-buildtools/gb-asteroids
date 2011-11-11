@@ -26,15 +26,13 @@
         <component type="circlecollider">
             <properties radius="1" />
         </component>
+        <component type="behavior">
+            <properties script="pellet.lua" />
+        </component>
     </components>
     
     <!-- tags -->
     <tags>
         <tag>pellet</tag>
     </tags>
-    
-    <!-- all the lua scripts that make up this actor -->
-    <behaviors>
-        <behavior file="pellet.lua" />
-    </behaviors>
 </prefab>
