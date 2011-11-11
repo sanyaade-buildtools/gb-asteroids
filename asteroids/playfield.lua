@@ -45,7 +45,7 @@ function advance ()
 end
 
 function play_game ()
-   if #asteroids.actors() == 0 then
+   if #asteroids.find_actors('asteroid') == 0 then
       state = add_bonus_points
    else
       -- count down the bonus timer

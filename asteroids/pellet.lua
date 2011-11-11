@@ -2,7 +2,7 @@
 
 function start ()
    -- save a reference to the player
-   player = scene.find_layer('player').find_actor('player')
+   player = scene.find_layer('player').find_actors('player')[1]
 
    -- start the particle system
    emitter.start()
