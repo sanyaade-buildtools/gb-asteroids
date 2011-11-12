@@ -21,6 +21,7 @@
     <asset name="laser" type="sound" file="laser.wav" />
     <asset name="shields" type="sound" file="shields.wav" />
     <asset name="boom" type="sound" file="boom.wav" />
+    <asset name="impact" type="sound" file="impact.wav" />
     <asset name="thrusters" type="sound" file="thrusters.wav" />
     <asset name="pickup" type="sound" file="pellet.wav" />
     

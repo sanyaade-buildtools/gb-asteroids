@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Active</key>
+	<true/>
+	<key>AudioUnits</key>
+	<array/>
+	<key>Name</key>
+	<string>Master Layer</string>
+	<key>chapters</key>
+	<array/>
+	<key>cues</key>
+	<array/>
+	<key>indexes</key>
+	<array/>
+	<key>loops</key>
+	<array/>
+	<key>markers</key>
+	<array/>
+	<key>regions</key>
+	<array/>
+	<key>slices</key>
+	<array/>
+	<key>tracks</key>
+	<array/>
+</dict>
+</plist>

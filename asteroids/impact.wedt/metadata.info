@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>creationDate</key>
+	<string>2007-05-29</string>
+	<key>softwarePackage</key>
+	<string>Sonic Foundry Sound Forge 6.0 (libsndfile-1.0.18)</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>copyLinks</key>
+	<false/>
+	<key>layerCount</key>
+	<integer>1</integer>
+	<key>length</key>
+	<real>4.351088435374149</real>
+	<key>numberOfChannels</key>
+	<integer>2</integer>
+	<key>rate</key>
+	<integer>44100</integer>
+	<key>wedtAudioFormat</key>
+	<integer>0</integer>
+</dict>
+</plist>

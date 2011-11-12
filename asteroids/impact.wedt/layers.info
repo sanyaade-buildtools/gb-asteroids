@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Active</key>
+		<true/>
+		<key>AudioUnits</key>
+		<array/>
+		<key>ColorBlueComponent</key>
+		<real>0.5</real>
+		<key>ColorGreenComponent</key>
+		<real>0.15000000596046448</real>
+		<key>ColorRedComponent</key>
+		<real>0.15000000596046448</real>
+		<key>CombineType</key>
+		<string>Add</string>
+		<key>Name</key>
+		<string>Layer 1</string>
+		<key>Start</key>
+		<real>0.0</real>
+		<key>Strength</key>
+		<real>1</real>
+	</dict>
+</array>
+</plist>

@@ -69,7 +69,7 @@ function add_bonus_points ()
    -- switch to the next state when no time is left
    if bonus_timer < 0 then
       bonus_timer = 0
-      state = foo
+      state = spawn_asteroids
    end
 end
 

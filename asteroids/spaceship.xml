@@ -46,6 +46,9 @@
             <properties script="spaceship.lua" />
         </component>
         <component type="behavior">
+            <properties name="controls" script="player_controls.lua" />
+        </component>
+        <component type="behavior">
             <properties script="wrap.lua" />
         </component>
     </components>

@@ -8,6 +8,13 @@
         
         <!-- blaster sprites -->
         <frame name="blast" x="39" y="56" w="7" h="15" />
+        
+        <!-- score sprites -->
+        <frame name="250 points" x="158" y="136" w="29" h="17" />
+        <frame name="500 points" x="83" y="136" w="29" h="17" />
+        <frame name="1000 points" x="121" y="136" w="29" h="17" />
+        <frame name="life" x="195" y="136" w="29" h="17" />
+        <frame name="armor" x="232" y="136" w="29" h="17" />
     </frames>
     
     <anims>
@@ -21,5 +28,16 @@
             rows="6"
             looping="yes"
             fps="10" />
+        
+        <anim
+            name="player explosion"
+            x="14"
+            y="368"
+            w="52"
+            h="52"
+            pad="1"
+            cols="8"
+            looping="no"
+            fps="15" />
     </anims>
 </atlas>
