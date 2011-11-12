@@ -17,14 +17,12 @@
 		1F8B4F7514593AC100FAE3E8 /* large_asteroid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B4F7414593AC000FAE3E8 /* large_asteroid.xml */; };
 		1F999F721464F56C00C89B93 /* android_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F999F711464F56C00C89B93 /* android_1.png */; };
 		1F999F741464F57F00C89B93 /* android.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F999F731464F57F00C89B93 /* android.xml */; };
-		1FC4C129145CC189009F8DBE /* main_scene.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C128145CC189009F8DBE /* main_scene.xml */; };
 		1FC4C12B145CF8FD009F8DBE /* large_asteroid.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C12A145CF8FD009F8DBE /* large_asteroid.lua */; };
 		1FC4C138145DD149009F8DBE /* laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C137145DD149009F8DBE /* laser.wav */; };
 		1FC4C13C145DE2D2009F8DBE /* shields.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C13B145DE2D2009F8DBE /* shields.wav */; };
 		1FC4C140145F20BA009F8DBE /* boom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C13F145F20BA009F8DBE /* boom.wav */; };
 		1FC4C142146056BD009F8DBE /* scoring.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C141146056BD009F8DBE /* scoring.lua */; };
 		1FC4C1471461F5D2009F8DBE /* thrusters.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C1461461F5D2009F8DBE /* thrusters.wav */; };
-		1FC4C14F146237BF009F8DBE /* shields.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4C14E146237BF009F8DBE /* shields.png */; };
 		1FCD60AF14520E5400ADCFDC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */; };
 		1FCD60B514520E5400ADCFDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60B314520E5400ADCFDC /* InfoPlist.strings */; };
 		1FCD60C814521AAE00ADCFDC /* spaceship.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD60C614521AAE00ADCFDC /* spaceship.lua */; };
@@ -61,14 +59,12 @@
 		1F8B4F7414593AC000FAE3E8 /* large_asteroid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = large_asteroid.xml; sourceTree = "<group>"; };
 		1F999F711464F56C00C89B93 /* android_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_1.png; sourceTree = "<group>"; };
 		1F999F731464F57F00C89B93 /* android.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = android.xml; sourceTree = "<group>"; };
-		1FC4C128145CC189009F8DBE /* main_scene.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = main_scene.xml; sourceTree = "<group>"; };
 		1FC4C12A145CF8FD009F8DBE /* large_asteroid.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = large_asteroid.lua; sourceTree = "<group>"; };
 		1FC4C137145DD149009F8DBE /* laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser.wav; sourceTree = "<group>"; };
 		1FC4C13B145DE2D2009F8DBE /* shields.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shields.wav; sourceTree = "<group>"; };
 		1FC4C13F145F20BA009F8DBE /* boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boom.wav; sourceTree = "<group>"; };
 		1FC4C141146056BD009F8DBE /* scoring.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scoring.lua; sourceTree = "<group>"; };
 		1FC4C1461461F5D2009F8DBE /* thrusters.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thrusters.wav; sourceTree = "<group>"; };
-		1FC4C14E146237BF009F8DBE /* shields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shields.png; sourceTree = "<group>"; };
 		1FCD60AB14520E5400ADCFDC /* asteroids.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asteroids.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCD60AE14520E5400ADCFDC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1FCD60B214520E5400ADCFDC /* asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asteroids-Info.plist"; sourceTree = "<group>"; };
@@ -109,20 +105,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F6BB597146E65F8004B8B08 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				1F999F711464F56C00C89B93 /* android_1.png */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
 		1F999F6A1464E85F00C89B93 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1F6BB597146E65F8004B8B08 /* Pages */,
 				1F999F731464F57F00C89B93 /* android.xml */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		1FC4C126145CC102009F8DBE /* Scenes */ = {
+		1FC4C126145CC102009F8DBE /* Scene Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				1FC4C128145CC189009F8DBE /* main_scene.xml */,
+				1FCD60C714521AAE00ADCFDC /* playfield.lua */,
 			);
-			name = Scenes;
+			name = "Scene Scripts";
 			sourceTree = "<group>";
 		};
 		1FC4C134145DCCF4009F8DBE /* Sounds */ = {
@@ -171,9 +176,9 @@
 				1FF85B5F1466EBFB00A8BD34 /* Atlases */,
 				1F999F6A1464E85F00C89B93 /* Fonts */,
 				1FC4C134145DCCF4009F8DBE /* Sounds */,
-				1FC4C126145CC102009F8DBE /* Scenes */,
+				1FC4C126145CC102009F8DBE /* Scene Scripts */,
 				1FCD6161145604F700ADCFDC /* Prefabs */,
-				1FCD6139145476F500ADCFDC /* Scripts */,
+				1FCD6139145476F500ADCFDC /* Actor Scripts */,
 				1FCD60B114520E5400ADCFDC /* Supporting Files */,
 			);
 			path = asteroids;
@@ -189,7 +194,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1FCD6139145476F500ADCFDC /* Scripts */ = {
+		1FCD6139145476F500ADCFDC /* Actor Scripts */ = {
 			isa = PBXGroup;
 			children = (
 				1FF85B6E14677A7D00A8BD34 /* health.lua */,
@@ -199,13 +204,12 @@
 				1F8B4F661459352300FAE3E8 /* wrap.lua */,
 				1F8B4F63145910CF00FAE3E8 /* bullet.lua */,
 				1FCD60C614521AAE00ADCFDC /* spaceship.lua */,
-				1FCD60C714521AAE00ADCFDC /* playfield.lua */,
 				1FCD613A1454770B00ADCFDC /* asteroid.lua */,
 				1FC4C12A145CF8FD009F8DBE /* large_asteroid.lua */,
 				1F8B4F7214593AA600FAE3E8 /* medium_asteroid.lua */,
 				1F8B4F681459390600FAE3E8 /* small_asteroid.lua */,
 			);
-			name = Scripts;
+			name = "Actor Scripts";
 			sourceTree = "<group>";
 		};
 		1FCD613C1454791800ADCFDC /* Textures */ = {
@@ -216,8 +220,6 @@
 				1FF85B63146708D400A8BD34 /* space.png */,
 				1FF85B5A1466EA4800A8BD34 /* rocks.png */,
 				1FF85B501465D97D00A8BD34 /* master.png */,
-				1F999F711464F56C00C89B93 /* android_1.png */,
-				1FC4C14E146237BF009F8DBE /* shields.png */,
 			);
 			name = Textures;
 			sourceTree = "<group>";
@@ -328,14 +330,12 @@
 				1F8B4F7114593A6900FAE3E8 /* medium_asteroid.xml in Resources */,
 				1F8B4F7314593AA600FAE3E8 /* medium_asteroid.lua in Resources */,
 				1F8B4F7514593AC100FAE3E8 /* large_asteroid.xml in Resources */,
-				1FC4C129145CC189009F8DBE /* main_scene.xml in Resources */,
 				1FC4C12B145CF8FD009F8DBE /* large_asteroid.lua in Resources */,
 				1FC4C138145DD149009F8DBE /* laser.wav in Resources */,
 				1FC4C13C145DE2D2009F8DBE /* shields.wav in Resources */,
 				1FC4C140145F20BA009F8DBE /* boom.wav in Resources */,
 				1FC4C142146056BD009F8DBE /* scoring.lua in Resources */,
 				1FC4C1471461F5D2009F8DBE /* thrusters.wav in Resources */,
-				1FC4C14F146237BF009F8DBE /* shields.png in Resources */,
 				1F999F721464F56C00C89B93 /* android_1.png in Resources */,
 				1F999F741464F57F00C89B93 /* android.xml in Resources */,
 				1FF85B481465CA1A00A8BD34 /* explosion.xml in Resources */,

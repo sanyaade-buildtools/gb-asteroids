@@ -61,7 +61,7 @@ function add_bonus_points ()
    local new_time = bonus_timer - clock.delta_time() * 10
 
    -- add some points for the extra time left over
-   game.scoring.add_points((bonus_timer - new_time) * 20)
+   game.scoring.add_points((bonus_timer - new_time) * 1000)
 
    -- update the time left
    bonus_timer = new_time

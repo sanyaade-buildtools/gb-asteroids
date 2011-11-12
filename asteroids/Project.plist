@@ -23,7 +23,7 @@
 	<key>Scenes</key>
 	<dict>
 		<key>main</key>
-		<string>main_scene.xml</string>
+		<string>playfield.lua</string>
 	</dict>
 </dict>
 </plist>
