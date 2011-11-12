@@ -1,27 +1,10 @@
 <?xml version="1.0"?>
-<scene state="spawn asteroids">
+<scene state="gameplay">
     <states>
-        <!-- plays an animation showing a new wave starting -->
-        <state name="new wave" />
-        
-        <!-- create some asteroids to shoot -->
-        <state name="spawn asteroids">
-            <script file="spawn_asteroids.lua" />
-        </state>
-        
         <!-- main gameplay -->
-        <state name="gameplay">
-            <script file="playfield.lua" />
-        </state>
-        
-        <!-- everything destroyed, tally bonus points -->
-        <state name="rack bonus points">
-            <script file="bonus.lua" />
-        </state>
-        
-        <!-- halts gameplay temporarily -->
-        <state name="pause">
-            <script file="pause.lua" />
-        </state>
+        <state 
+            name="gameplay"
+            script="playfield.lua"
+            />
     </states>
 </scene>

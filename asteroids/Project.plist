@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Initial Scene</key>
-	<string>playfield.lua</string>
+	<string>main</string>
 	<key>Display Title</key>
 	<string>Asteroids Test Suite</string>
 	<key>Display Width</key>
@@ -19,6 +19,11 @@
 	<dict>
 		<key>scoring</key>
 		<string>scoring.lua</string>
+	</dict>
+	<key>Scenes</key>
+	<dict>
+		<key>main</key>
+		<string>main_scene.xml</string>
 	</dict>
 </dict>
 </plist>
