@@ -14,7 +14,7 @@
                 name="shields"
                 atlas="master"
                 frame="shields"
-                visible="no"
+                enabled="no"
                 />
         </component>
         <component type="rigidbody">
@@ -44,9 +44,6 @@
         </component>
         <component type="behavior">
             <properties script="spaceship.lua" />
-        </component>
-        <component type="behavior">
-            <properties name="controls" script="player_controls.lua" />
         </component>
         <component type="behavior">
             <properties script="wrap.lua" />

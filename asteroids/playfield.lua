@@ -73,9 +73,6 @@ function add_bonus_points ()
    end
 end
 
-function foo ()
-end
-
 function ui ()
    local time_left = string.format("%.2f", bonus_timer)
    local score = string.format("%d", game.scoring.points)

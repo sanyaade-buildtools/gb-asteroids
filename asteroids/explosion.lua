@@ -1,11 +1,12 @@
 -- explosion effect
 
 function start ()
-   emitter.start()
+   shockwave.start()
+   bits.start()
 end
 
 function advance ()
-   if not emitter.is_running() then
+   if not shockwave.is_running() and not bits.is_running() then
       self.destroy()
    end
 end

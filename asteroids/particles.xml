@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
 <atlas texture="particles.png">
     <frames>
-        <!-- player sprites -->
+        <!-- single particles -->
         <frame name="tiny particle" x="7" y="139" w="41" h="41" />
         <frame name="shockwave" x="125" y="2" w="120" h="120" />
+        
+        <!-- debris particles -->
+        <frame name="debris 1" x="8" y="5" w="34" h="38" />
+        <frame name="debris 2" x="48" y="8" w="34" h="30" />
+        <frame name="debris 3" x="90" y="9" w="34" h="28" />
+        <frame name="debris 4" x="10" y="46" w="34" h="33" />
+        <frame name="debris 5" x="46" y="44" w="40" h="37" />
+        <frame name="debris 6" x="88" y="49" w="36" h="30" />
+        <frame name="debris 7" x="9" y="87" w="36" h="34" />
+        <frame name="debris 8" x="47" y="90" w="38" h="23" />
+        <frame name="debris 9" x="88" y="83" w="34" h="38" />
     </frames>
 </atlas>

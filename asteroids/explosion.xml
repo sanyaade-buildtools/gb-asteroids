@@ -4,7 +4,7 @@
     <components>
         <component type="emitter">
             <properties
-                name="emitter"
+                name="shockwave"
                 atlas="particles"
                 frame="shockwave"
                 lifetime="one shot"
@@ -16,6 +16,26 @@
                 endcolor="#ffff0000"
                 startscale="0.25"
                 endscale="1.0"
+            />
+        </component>
+        <component type="emitter">
+            <properties
+                name="bits"
+                atlas="particles"
+                frame="debris 1"
+                lifetime="0"
+                rate="40"
+                spread="360"
+                minparticlelife="1"
+                maxparticlelife="2"
+                minspeed="100"
+                maxspeed="150"
+                minangularvelocity="-120"
+                maxangularvelocity="120"
+                startcolor="#6c421cff"
+                endcolor="#6c421c00"
+                startscale="0.25"
+                endscale="0.25"
             />
         </component>
         <component type="behavior">

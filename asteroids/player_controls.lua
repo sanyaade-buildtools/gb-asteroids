@@ -1,21 +1,5 @@
 -- example actor
 
-function start ()
-   energy = 100
-end
-
-function spend_energy (costPerSec)
-   if energy < costPerSec * clock.delta_time() then
-      return false
-   end
-
-   -- expend the energy and delay getting it back
-   energy = energy - costPerSec * clock.delta_time()
-   regain_delay = clock.time() + 0.5
-
-   return true
-end
-
 function advance ()
    turn()
    shoot()
@@ -34,7 +18,7 @@ function turn ()
 end
 
 function defenses ()
-   shields_up = input.key_down(input.KEY_DOWN) and spend_energy(50)
+   shields_up = input.key_down(input.KEY_DOWN) and scene.spend_energy(50)
 
    if shields_up then
       if not audio.is_playing(shields_sound) then
@@ -49,7 +33,7 @@ function defenses ()
 end
 
 function thrust ()
-   thrusting = input.key_down(input.KEY_UP) and spend_energy(10)
+   thrusting = input.key_down(input.KEY_UP) and scene.spend_energy(10)
 
    if thrusting then
       local x, y = transform.rotate_point(0, 100 * clock.delta_time())
@@ -70,20 +54,8 @@ function thrust ()
 end
 
 function shoot ()
-
-   -- check for nova
-   if input.key_pressed(input.KEY_P) then
-      local asteroids = scene.layer('asteroids').actors()
-    
-      -- loop over all the asteroids
-      for _,asteroid in ipairs(asteroids) do
-         print(asteroid) -- TODO: asteroid.explode()
-      end
-   end
-
-   -- check for bullets
    for i=1,input.key_hits(input.KEY_SPACE),1 do
-      if not spend_energy(5 / clock.delta_time()) then
+      if not scene.spend_energy(5 / clock.delta_time()) then
          return
       end
 
