@@ -18,14 +18,18 @@ function start ()
    -- start off with full energy
    regain_delay = 0
    energy = 100
+   dead = false
 end
 
 function advance ()
    regain_energy()
-   turn()
-   shoot()
-   defenses()
-   thrust()
+
+   if not dead then
+      turn()
+      shoot()
+      defenses()
+      thrust()
+   end
 end
 
 function ui ()
@@ -38,8 +42,9 @@ end
 function collide (thing)
    if thing.has_tag('asteroid') then
       if not shields_up then
-         --sprite.play_anim('player explosion')
-         --audio.play('impact')
+         sprite.play_anim('player explosion')
+         audio.play('impact')
+         dead = true
       end
    end
 

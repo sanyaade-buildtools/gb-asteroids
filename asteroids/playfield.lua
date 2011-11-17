@@ -83,4 +83,8 @@ function ui ()
 
    -- show the player's current score
    gui.draw_string("Score: " .. score, 230, -20, "android")
+
+   --gui.window(100, 100, 100, 100)
+   foo=gui.checkbox(150,150,foo)
+   test=gui.button(200,150,"welcome")
 end

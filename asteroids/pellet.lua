@@ -19,8 +19,10 @@ function advance ()
    dy = (dy * 100) / d
 
    -- slowly apply force towards the player
-   rigidbody.clamp_velocity(150)
-   rigidbody.apply_impulse(dx, dy)
+   if not player.is_dead() then
+      rigidbody.clamp_velocity(150)
+      rigidbody.apply_impulse(dx, dy)
+   end
 
    -- check to see if it's dead
    if not emitter.is_running() then
